@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MapsTest</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="tes_submit_button_text">Enter the map</string>
+    <string name="location_selection_text">You selected to meet at :</string>
+
+</resources>

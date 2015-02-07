@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#996600">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:src="@drawable/ucf_knight"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_submit_button"
+        android:layout_gravity="center"
+        android:text="@string/tes_submit_button_text"
+        android:onClick="enterMapFrag"
+        android:layout_margin="50dp"
+        android:shadowColor="@android:color/black"
+        android:background="@android:color/black"
+        android:textColor="#996600"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_textview"
+        android:layout_gravity="center"
+        android:background="@android:color/white"
+        android:textSize="20sp"
+        android:height="30dp"
+        android:layout_margin="10dp"
+        android:shadowColor="@android:color/black"
+        android:backgroundTint="@android:color/black"
+        android:textColor="#996600"/>
+
+</LinearLayout>
